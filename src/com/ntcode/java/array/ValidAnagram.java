@@ -6,7 +6,7 @@ public class ValidAnagram {
         System.out.println(isAnagram(s, t));
     }
 
-    public static boolean isAnagram(String s, String t) {
+    private static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
 
         int[] store = new int[26];

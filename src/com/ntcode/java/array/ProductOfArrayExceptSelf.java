@@ -10,7 +10,7 @@ public class ProductOfArrayExceptSelf {
         System.out.println(Arrays.toString(productExceptSelf(ex2)));
     }
 
-    public static int[] productExceptSelf(int[] nums) {
+    private static int[] productExceptSelf(int[] nums) {
         int[] arr = new int[nums.length];
         int right = 1, left = 1;
         for (int i = 0; i < nums.length; i++) {

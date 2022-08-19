@@ -9,7 +9,7 @@ public class ContainsDuplicate {
         System.out.println(containsDuplicate(ex1));
     }
 
-    public static boolean containsDuplicate(int[] nums) {
+    private static boolean containsDuplicate(int[] nums) {
         Set<Integer> uniques = new HashSet<>();
         for (int num : nums) {
             if (uniques.contains(num)) {

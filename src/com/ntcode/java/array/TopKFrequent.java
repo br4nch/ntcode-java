@@ -18,7 +18,7 @@ public class TopKFrequent {
         System.out.println(Arrays.toString(topKFrequent(ex4, 1)));
     }
 
-    public static int[] topKFrequent(int[] nums, int k) {
+    private static int[] topKFrequent(int[] nums, int k) {
         int[] arr = new int[k];
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int num : nums) map.put(num, map.getOrDefault(num, 0) + 1);
