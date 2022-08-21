@@ -1,4 +1,4 @@
-package com.ntcode.java.twopointer;
+package com.ntcode.twopointer;
 
 public class ValidPalindrome {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.ntcode.java.array;
+package com.ntcode.array;
 
 public class ValidAnagram {
     public static void main(String[] args) {

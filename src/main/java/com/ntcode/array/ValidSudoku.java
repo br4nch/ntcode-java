@@ -1,4 +1,4 @@
-package com.ntcode.java.array;
+package com.ntcode.array;
 
 import java.util.HashSet;
 import java.util.Set;
