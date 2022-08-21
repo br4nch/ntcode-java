@@ -1,4 +1,4 @@
-package com.ntcode.java.twopointer;
+package com.ntcode.java.array;
 
 import java.util.Arrays;
 import java.util.HashMap;
