@@ -11,7 +11,7 @@ class ValidParenthesesTest {
 
     @Test
     void isValid() {
-        String input = "()";
+        String input = "({[]})";
         boolean res = main.isValid(input);
         assertTrue(res);
     }
