@@ -1,8 +1,10 @@
 package com.ntcode.twopointer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+@Tag("small")
 class TwoSumIITest {
 
     private final TwoSumII twoSumII = new TwoSumII();
